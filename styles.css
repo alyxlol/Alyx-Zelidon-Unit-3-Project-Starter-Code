@@ -1,0 +1,77 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+
+}
+
+img {
+    width: 350px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!
+*/
+ 
+.story-opening{
+   display:block;
+}
+
+
+
+.buttons{
+   display:block;
+}
+
+
+.option-one-screen{
+   display:none;
+}
+
+
+ 
+.option-two-screen{
+   display:none;
+}
+
+.mango-end-one{
+display:none;
+}
+
+.mango-end-two{
+display:none;
+}
+
+.castle-end-one{
+display:none;
+}
+
+.castle-end-two{
+display:none;
+}
+
